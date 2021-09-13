@@ -80,7 +80,7 @@ return [
     'normalize_index_brace' => true,
     'not_operator_with_successor_space' => true,
     'object_operator_without_whitespace' => true,
-    'ordered_importsg' => ['sort_algorithm' => 'alpha'],
+    'ordered_import' => ['sort_algorithm' => 'alpha'],
     'phpdoc_indent' => true,
     // 'phpdoc_inline_tag' => true, // deprecated in php cs fixer 3
     'phpdoc_no_access' => true,
