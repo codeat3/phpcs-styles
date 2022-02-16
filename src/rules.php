@@ -81,6 +81,7 @@ return [
     'not_operator_with_successor_space' => true,
     'object_operator_without_whitespace' => true,
     'ordered_imports' => ['sort_algorithm' => 'alpha'],
+    'no_unused_imports' => true,
     'phpdoc_indent' => true,
     // 'phpdoc_inline_tag' => true, // deprecated in php cs fixer 3
     'phpdoc_no_access' => true,
