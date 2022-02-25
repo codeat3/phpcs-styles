@@ -49,6 +49,8 @@ return [
             'use_trait',
         ]
     ],
+    'single_trait_insert_per_statement' => true,
+    'ordered_traits' => true,
     'no_blank_lines_after_class_opening' => true,
     'no_blank_lines_after_phpdoc' => true,
     'no_closing_tag' => true,
