@@ -3,11 +3,12 @@
     "description": "codeat3's shared PHP style rules for PHP-CS-Fixer",
     "license": "MIT",
     "require": {
-      "friendsofphp/php-cs-fixer": "^3.0"
+        "php": "^8.2",
+        "friendsofphp/php-cs-fixer": "^3.13"
     },
     "autoload": {
-      "files": [
-        "./src/helpers.php"
-      ]
+        "files": [
+            "./src/helpers.php"
+        ]
     }
-  }
+}
